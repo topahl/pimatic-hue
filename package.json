@@ -1,20 +1,20 @@
-{ "name": "pimatic-plugin-template",
-  "description": "The plugin description",
-  "author": "Your Name <you@example.com> (http://your-website)",
-  "main": "my-plugin",
+{ "name": "pimatic-hue",
+  "description": "Provides pimatic support for hue lights from Philips",
+  "author": "Tobias Pahlings <topahl@gmx.net>",
+  "main": "pimatic-hue.coffee",
   "files": [
-    "my-plugin.coffee",
+    "pimatic-hue.coffee",
     "README.md",
-    "my-plugin-config-schema.coffee"
+    "pimatic-hue-config-schema.coffee",
+    "device-config-schema.coffee"
   ],
-  "version": "0.8.0",
-  "homepage": "http://your-plugin-website",
-  "private": true,
+  "version": "0.0.1",
+  "homepage": "https://github.com/topahl/pimatic-hue",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pimatic/pimatic-plugin-template.git"
+    "url": "https://github.com/topahl/pimatic-hue.git"
   },
-  "configSchema": "my-plugin-config-schema.coffee",
+  "configSchema": "pimatic-hue-config-schema.coffee",
   "dependencies": {
   },
   "peerDependencies": {
